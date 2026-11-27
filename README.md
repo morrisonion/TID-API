@@ -1,21 +1,21 @@
-# TID-API
+# TID-DB
 
 A merged, always up-to-date database of Nintendo 3DS Title IDs
 
 ---
 
-### https://morrisonion.github.io/TID-API/
+### https://morrisonion.github.io/TID-DB
 
-![Update title databases](https://github.com/Morrisonion/TID-API/actions/workflows/update.yml/badge.svg)
+![Update title databases](https://github.com/Morrisonion/TID-DB/actions/workflows/update.yml/badge.svg)
 
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?&logo=javascript&logoColor=black)
-[![License](https://img.shields.io/badge/license-GPLv3-red)](https://github.com/Morrisonion/TID-API/raw/main/LICENSE)
+[![License](https://img.shields.io/badge/license-GPLv3-red)](https://github.com/Morrisonion/TID-DB/raw/main/LICENSE)
 
 ---
 
 ## What this is
 
-**TID-API** is not a Title ID generator. It is a static, hourly-refreshed database that combines every official Nintendo 3DS Title ID with every known homebrew Title ID from the Universal-DB, into one flat JSON file.
+**TID-DB** is not a Title ID generator. It is a static, hourly-refreshed database that combines every official Nintendo 3DS Title ID with every known homebrew Title ID from the Universal-DB, into one flat JSON file.
 
 The generator that consumes this data lives at [CTR-TIDGenerator](https://github.com/Morrisonion/CTR-TIDGenerator).
 
@@ -25,9 +25,9 @@ The generator that consumes this data lives at [CTR-TIDGenerator](https://github
 
 | File | URL | Updated |
 |---|---|---|
-| Merged (recommended) | `https://morrisonion.github.io/TID-API/titles.json` | hourly |
-| NUS only | `https://morrisonion.github.io/TID-API/data/nus-titles.json` | manually |
-| UDB only | `https://morrisonion.github.io/TID-API/data/udb-titles.json` | hourly |
+| Merged (recommended) | `https://morrisonion.github.io/TID-DB/titles.json` | hourly |
+| NUS only | `https://morrisonion.github.io/TID-DB/data/nus-titles.json` | manually |
+| UDB only | `https://morrisonion.github.io/TID-DB/data/udb-titles.json` | hourly |
 
 ---
 
